@@ -1,0 +1,30 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vs/
+
+# Angular
+/src/client/dist
+/src/client/node_modules
+/src/client/.angular/cache
+/src/client/.sass-cache
+/src/client/connect.lock
+/src/client/coverage
+/src/client/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env
+appsettings.Development.json
+appsettings.Production.json
+
+# IDE files
+.idea/
+*.swp
+*.swo
+.DS_Store
